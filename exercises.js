@@ -11,6 +11,8 @@ function multiplyByTen(num) {
 function subtractFive(num) {
   //return num after subtracting five
   //code here
+  var res = num -5;
+  return res;
 }
 
 function areSameLength(str1, str2) {
