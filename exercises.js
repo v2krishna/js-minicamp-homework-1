@@ -3,6 +3,9 @@
 function multiplyByTen(num) {
   //return num after multiplying it by ten
   //code here
+  //create variable  res and assign num*10 to the res
+  var res = num*10;
+  return res;
 }
 
 function subtractFive(num) {
