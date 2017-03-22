@@ -155,6 +155,8 @@ function roundNumber(num) {
 function roundUp(num) {
   //round num up and return it
   //code here
+  var res = Math.ceil(num);
+  return res;
 }
 
 function addExclamationPoint(str) {
