@@ -74,11 +74,15 @@ function add(x, y) {
 function subtract(x, y) {
   //subtract y from x and return the value
   //code here
+  var res = x-y;
+  return res;
 }
 
 function divide(x, y) {
   //divide x by y and return the value
   //code here
+  var res = x/y;
+  return res;
 }
 
 function multiply(x, y) {
