@@ -44,6 +44,12 @@ function lessThanNinety(num) {
   //return true if num is less than ninety
   //otherwise return false
   //code here
+  if(num < 90){
+    return true;
+  }
+  else{
+    return false;
+  }
 }
 
 function greaterThanFifty(num) {
