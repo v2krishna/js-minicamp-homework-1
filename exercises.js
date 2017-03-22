@@ -116,6 +116,12 @@ function isOdd(num) {
   //return true if num is false
   //otherwise return false
   //code here
+  if(num%2==1){
+    return true;
+  }
+  else{
+    return false;
+  }
 }
 
 function square(num) {
