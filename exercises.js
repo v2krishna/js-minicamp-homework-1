@@ -134,6 +134,8 @@ function square(num) {
 function cube(num) {
   //cube num and return the new value
   //code here
+  var res = Math.pow(num,3);
+  return res;
 }
 
 function raiseToPower(num, exponent) {
