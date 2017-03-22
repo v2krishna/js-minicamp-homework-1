@@ -56,11 +56,19 @@ function greaterThanFifty(num) {
   //return true if num is greater than fifty
   //otherwise return false
   //code here
+  if(num>50){
+    return true;
+  }
+  else{
+    return false;
+  }
 }
 
 function add(x, y) {
   //add x and y together and return the value
   //code here
+  var res = x+y;
+  return res;
 }
 
 function subtract(x, y) {
