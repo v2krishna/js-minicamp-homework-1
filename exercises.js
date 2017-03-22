@@ -88,17 +88,28 @@ function divide(x, y) {
 function multiply(x, y) {
   //multiply x by y and return the value
   //code here
+  var res = x*y;
+  return res; 
 }
 
 function getRemainder(x, y) {
   //return the remainder from dividing x by y
   //code here
+  var res = x%y;
+  return res;
+
 }
 
 function isEven(num) {
   //return true if num is even
   //otherwise return false
   //code here
+  if (num%2==0){
+    return true;
+  }
+  else {
+    return false;
+  }
 }
 
 function isOdd(num) {
